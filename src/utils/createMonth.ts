@@ -3,7 +3,6 @@ import { getMonthNumberOfDays } from './getMonthNumberOfDays';
 
 interface CreateMonthParams {
   date?: Date;
-  locale?: string;
 }
 
 export const createMonth = (params?: CreateMonthParams) => {
